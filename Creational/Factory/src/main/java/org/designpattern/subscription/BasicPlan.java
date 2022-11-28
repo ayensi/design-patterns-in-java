@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
-@AllArgsConstructor
 public class BasicPlan implements Plan{
 
     @Override

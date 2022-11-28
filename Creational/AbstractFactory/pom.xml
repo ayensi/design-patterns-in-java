@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.designpattern</groupId>
-    <artifactId>factory</artifactId>
+    <artifactId>AbstractFactory</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
         <dependency>
@@ -13,12 +13,6 @@
             <artifactId>lombok</artifactId>
             <version>1.18.24</version>
             <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>RELEASE</version>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 
