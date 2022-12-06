@@ -9,7 +9,7 @@ public class TestMain {
     public static void main(String[] args) {
         AbstractFactory factory = FactoryCreator.getFactory("WithAds");
         WithAds withAds = factory.getWithAds("BASIC");
-        System.out.println(withAds.getPrice());
+        System.out.println("emrecanin gotunu sikm");
 
         AbstractFactory newFactory = FactoryCreator.getFactory("WithoutAds");
         WithoutAds withoutAds = newFactory.getWithoutAds("PREMIUM");
